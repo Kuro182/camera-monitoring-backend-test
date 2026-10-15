@@ -11,7 +11,7 @@
 
 ## Запуск Modern API
 
-1. Запустить PostgreSQL и дождаться прохождения healthcheck:
+1. Запустить из корня приложения PostgreSQL и дождаться прохождения healthcheck:
 
 ```powershell
 docker compose -f Modern/docker-compose.yml up -d --wait
