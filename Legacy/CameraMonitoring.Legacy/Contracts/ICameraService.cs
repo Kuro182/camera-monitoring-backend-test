@@ -12,7 +12,7 @@ public interface ICameraService
 }
 
 [DataContract]
-public sealed class CameraEvent
+public class CameraEvent
 {
     [DataMember]
     public int CameraId { get; set; }
